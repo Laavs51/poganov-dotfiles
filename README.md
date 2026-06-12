@@ -1,15 +1,15 @@
 # Sources
-Created by combined power CachyOS default configs and shizo myself
+Created by combined CachyOS default configs and shizo myself
 
 # How to use
-Lets assume you have already create .config folder in your HOME
+Use can either move some folders or use stow to make symlinks
 
 ## Copy and go
 ```bash
-cp -r . ~/.config/
+cp -r . ~
 ```
 
 ## Using GNU stow
 ```bash
-stow -S . -t ~/.config/
+stow -S . -t ~
 ```
