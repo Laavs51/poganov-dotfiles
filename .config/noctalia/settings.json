@@ -403,7 +403,7 @@
         "enableBlurBehind": true,
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": false,
-        "enableShadows": true,
+        "enableShadows": false,
         "forceBlackScreenCorners": false,
         "iRadiusRatio": 1,
         "keybinds": {
@@ -441,11 +441,11 @@
         "passwordChars": false,
         "radiusRatio": 1,
         "reverseScroll": false,
-        "scaleRatio": 1.1,
+        "scaleRatio": 1.1500000000000001,
         "screenRadiusRatio": 1,
-        "shadowDirection": "bottom_right",
-        "shadowOffsetX": 2,
-        "shadowOffsetY": 3,
+        "shadowDirection": "center",
+        "shadowOffsetX": 0,
+        "shadowOffsetY": 0,
         "showChangelogOnStartup": true,
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false,
@@ -500,7 +500,7 @@
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
         "bluetoothRssiPollIntervalMs": 60000,
-        "bluetoothRssiPollingEnabled": false,
+        "bluetoothRssiPollingEnabled": true,
         "disableDiscoverability": false,
         "networkPanelView": "wifi",
         "wifiDetailsViewMode": "grid"
@@ -680,7 +680,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/laavs/Pictures",
+        "directory": "/home/laavs/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
