@@ -4,7 +4,7 @@
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
 
 output "DP-1" {
-    mode "2560x1440@179.952" // Set resolution and refresh rate
+    mode "2560x1440@179.981" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
     position x=0 y=0 // Чтобы было в ряд
     variable-refresh-rate on-demand=true
@@ -14,7 +14,7 @@ output "DP-1" {
     }
 }
 
-output "DP-3" {
+output "DP-2" {
     mode "2560x1440@179.981" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
     position x=2560 y=0
@@ -26,13 +26,13 @@ output "DP-3" {
     }
 }
 
-output "HDMI-A-1" {
-    mode "1920x1080@60.000" // Set resolution and refresh rate
+output "DP-3" {
+    mode "2560x1440@179.998" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
     position x=5120 y=0
+    variable-refresh-rate on-demand=true
 
     hot-corners {
         top-right
     }
 }
- 
