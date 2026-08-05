@@ -27,7 +27,7 @@ output "DP-2" {
 }
 
 output "DP-3" {
-    mode "2560x1440@179.998" // Set resolution and refresh rate
+    mode "2560x1440@179.981" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
     position x=5120 y=0
     variable-refresh-rate on-demand=true
