@@ -1,0 +1,403 @@
+[accessibility]
+ui_scale = 1.1500000096857548
+
+[audio]
+enable_sounds = false
+
+[bar]
+order = [ "default" ]
+
+    [bar.default]
+    capsule = true
+    center = [ "clock", "notifications" ]
+    end = [ "tray", "keyboard_layout", "volume", "brightness", "battery", "control-center", "session" ]
+    margin_ends = 0
+    radius = 0
+    scale = 1.1500000096857548
+    start = [ "group:g1", "workspaces", "sysmon" ]
+
+        [[bar.default.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        border_width = 1.0
+        enabled = true
+        fill = "surface_variant"
+        id = "g1"
+        members = [ "launcher", "clipboard", "wallpaper" ]
+        opacity = 1.0
+        padding = 6.0
+
+[control_center]
+width = 800
+
+[desktop_widgets]
+enabled = false
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[dock]
+launcher_position = "start"
+magnification_scale = 1.2500000037252903
+radius_bottom_left = 0
+radius_bottom_right = 0
+reserve_space = false
+
+[idle]
+behavior_order = [ "lock", "screen-off", "lock-and-suspend" ]
+pre_action_fade_seconds = 0
+
+    [idle.behavior.lock]
+    action = "lock"
+    enabled = true
+    timeout = 900.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    enabled = false
+    timeout = 900.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    enabled = true
+    timeout = 3600.0
+
+[location]
+auto_locate = true
+
+[lockscreen]
+blur_intensity = 0.0
+transition = [ "fade", "zoom" ]
+transition_duration = 300
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-login-box@DP-1",
+    "lockscreen-login-box@DP-2",
+    "lockscreen-login-box@DP-3",
+    "lockscreen-widget-0000000000000001",
+    "lockscreen-widget-0000000000000002",
+    "lockscreen-widget-0000000000000003",
+    "lockscreen-widget-0000000000000004",
+    "lockscreen-widget-0000000000000005",
+    "lockscreen-widget-0000000000000006",
+    "lockscreen-widget-0000000000000007",
+    "lockscreen-widget-0000000000000008",
+    "lockscreen-widget-0000000000000009"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1258.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-2"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1258.0
+    output = "DP-2"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-2".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-3"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1258.0
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-3".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
+    box_height = 256.0
+    box_width = 256.0
+    cx = 1280.0
+    cy = 928.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000001.settings]
+        background_opacity = 0.0
+        format = "{:%H:%M}"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 240.0
+    box_width = 256.0
+    cx = 1280.0
+    cy = 720.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "fancy_audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000002.settings]
+        background = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000003]
+    box_height = 256.0
+    box_width = 256.0
+    cx = 1280.0
+    cy = 928.0
+    output = "DP-2"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000003.settings]
+        background_opacity = 0.0
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000004]
+    box_height = 256.0
+    box_width = 256.0
+    cx = 1280.0
+    cy = 928.0
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000004.settings]
+        background_opacity = 0.0
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000005]
+    box_height = 112.0
+    box_width = 384.0
+    cx = 1280.0
+    cy = 1040.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000005.settings]
+        background_opacity = 0.0
+        clock_style = "digital"
+        format = "{:%d %B %Y}"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000006]
+    box_height = 112.0
+    box_width = 384.0
+    cx = 1280.0
+    cy = 1040.0
+    output = "DP-2"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000006.settings]
+        background_opacity = 0.0
+        clock_style = "digital"
+        format = "{:%d %B %Y}"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000007]
+    box_height = 240.0
+    box_width = 256.0
+    cx = 1280.0
+    cy = 720.0
+    output = "DP-2"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "fancy_audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000007.settings]
+        background = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000008]
+    box_height = 240.0
+    box_width = 256.0
+    cx = 1280.0
+    cy = 720.0
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "fancy_audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000008.settings]
+        background = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000009]
+    box_height = 96.0
+    box_width = 384.0
+    cx = 1280.0
+    cy = 1040.0
+    output = "DP-3"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000009.settings]
+        background_opacity = 0.0
+        clock_style = "digital"
+        format = "{:%d %B %Y}"
+
+[notification]
+follow_focused_output = true
+
+[osd.kinds]
+bluetooth = false
+brightness = false
+caffeine = false
+dnd = false
+keyboard_backlight = false
+keyboard_layout = false
+lock_keys = false
+media = false
+nightlight = false
+power_profile = false
+wifi = false
+
+[shell]
+avatar_path = "/home/laavs/Pictures/content.png"
+niri_overview_type_to_launch_enabled = true
+polkit_agent = true
+settings_expand_all_groups = true
+
+    [shell.animation]
+    speed = 1.2500000186264515
+
+    [shell.launcher.providers.panels]
+    global = true
+
+    [shell.launcher.providers.session]
+    global = true
+
+[system.monitor]
+cpu_poll_seconds = 5
+disk_poll_seconds = 5
+memory_poll_seconds = 5
+network_poll_seconds = 5
+
+[theme]
+builtin = "Tokyo-Night"
+community_palette = "Monochrome"
+custom_palette = "Lovelas"
+mode = "dark"
+source = "custom"
+wallpaper_scheme = "m3-tonal-spot"
+
+[wallpaper]
+directory = "/home/laavs/Pictures/Wallpapers"
+transition = [ "fade", "zoom" ]
+transition_on_startup = true
+
+    [wallpaper.default]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_7jjo5e.jpg"
+
+    [wallpaper.last]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_7jjo5e.jpg"
+
+    [wallpaper.monitors.DP-1]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_7jjo5e.jpg"
+
+    [wallpaper.monitors.DP-2]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_rddgwm.jpg"
+
+    [wallpaper.monitors.DP-3]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_d6y12l.jpg"
+
+    [[wallpaper.favorite]]
+    custom_palette = "Lovelas"
+    palette_source = "custom"
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_1p76pw.jpg"
+    theme_mode = "dark"
+
+    [[wallpaper.favorite]]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_7jjo5e.jpg"
+
+    [[wallpaper.favorite]]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_d6y12l.jpg"
+
+    [[wallpaper.favorite]]
+    path = "/home/laavs/Pictures/Wallpapers/wallhaven_rddgwm.jpg"
+
+[widget.clock]
+anchor = true
+
+[widget.notifications]
+hide_when_no_unread = true
+
+[widget.sysmon]
+visualization = "none"
